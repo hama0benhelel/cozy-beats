@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css"> 
+    <title>(﹙˓🎵˒﹚) Cozy-Beats</title>
+  
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+    
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">  (﹙˓🎵˒﹚) Cozy-Beats</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"> </button>
+                <li>
+                    <a href="#homes" class="nav-link">Home</a>
+                </li> 
+                
+                <li>
+                    <a href="#abouts" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#musics" class="nav-link">Music</a>
+                </li>
+                
+                  <li>
+                    <a href="#albums" class="nav-link">Albums</a>
+                </li>
+                
+            
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+    
+            <button   id="menu-open-button" class="fas fa-bars"> </button>
+          </nav>
+    </header>
+    <main>
+        <section class="hero-section" id="homes">
+        <div class="section-content">
+            <div class="hero-detalis">
+                <h2 class="title-1"> Welcome to CozyBeats</h2>
+                <h3 class="subtitle"> Your Gateway to Endless Musical Vibe and 
+                    Cozy Corner for Lofi & Chill Beats</h3>
+                    <p class="description">Escape the noise and immerse yourself in soothing tunes. 
+                      CozyBeats is your sanctuary for lofi beats and chill vibes,
+                         perfect for studying, relaxing, or unwinding after a long day.</p>
+                         <div class="butttons">
+                            <a href="#musics" class="bottons ">Start Your Chill Journey</a>
+                           
+                            <a href="#contact" class="bottons  contact-us ">Contact Us</a>
+                         </div>
+            
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="./images/description.png" alt="hero" class="hero-image">
+            </div>
+        </div>
+    </section>
+    
+    <section class="about-section" id="abouts">
+        <div class="section-content">  
+            <div class="about-image-wrapper">
+            <img src="./images/about.jpg" alt="About" class="about-image">
+        </div>
+        <div class="about-detailes">
+            <h2 class="section-title">About Us</h2>
+            <p class="texte">
+                At CozyBeats, we’re passionate about creating a cozy space for music lovers. 
+                We believe in the power of music to soothe the soul and spark creativity.
+                 Our platform offers a curated selection of lofi and chill music to help you relax, focus, and recharge.
+            </p>
+            <div class="social-link-list">
+                <a href="#" class="social-link">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fa-brands fa-spotify"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    
+    <section class="menu-section" id="musics">
+        <h2 class="section-title">albums names</h2>
+    <div class="section-content">
+        <lu class="music-list">
+            <li class="music-item">
+                <img src="./images/album.jpg" alt="album"
+                class="music-album-image">
+                <h3 class="name">ALBUM</h3>
+                <p class="text">Moonlit Solitude 🌕</p>
+            </li>
+            <li class="music-item">
+                <img src="./images/intro.jpg" alt="intro"
+                class="music-image">
+                <h3 class="name">Intro</h3>
+                <p class="text">"🌌 Midnight Hues – Immerse in the calm of starlit melodies.
+                    "</p>
+            </li>  
+             <li class="music-item">
+                <img src="./images/hope.jpg" alt="intro"
+                class="music-image">
+                <h3 class="name">Hope</h3>
+                <p class="text">"🌑 Velvet Shadows – Let the night embrace your soul.
+    
+             <li class="music-item">
+                <img src="./images/joyeux3.jpg" alt="intro"
+                class="music-image">
+                <h3 class="name">Joyeux3</h3>
+                <p class="text">"🌠 Dreamwave – Float through serene, cosmic beats.
+                    "</p>
+            </li>
+            <li class="music-item">
+                <img src="./images/happy.jpg" alt="intro"
+                class="music-image">
+                <h3 class="name">Happy</h3>
+                <p class="text">"🕯 Flicker Tones – Soft rhythms for quiet reflections".</p>
+            </li>
+            <li class="music-item">
+                <img src="./images/life.jpg" alt="intro"
+                class="music-image">
+                <h3 class="name">Life</h3>
+                <p class="text">"🌫 Twilight Drift – Lose yourself in moody, hazy vibes."</p>
+            </li>
+        </lu>
+    </div>
+        
+    </section>
+    
+     <section class="music-section" id="albums">
+    <div class="music_model_container" id="music_model_container">
+        <div class="music_img_container">
+            <img src="./images/intro.jpg" id="cover">
+        </div>
+        <div class="music_model_content">
+            <div class="music_no_container">
+                <span class="no_big music_no">01</span>
+                <span class="no_small music_no">01</span>
+            </div>
+           
+            <div class="music_details">
+                <span class="title" id="title"></span>
+                <span class="artist" id="artist"></span>
+                <div class="progress_bar" id="progress_bar">
+                    <span id="currenttime">0:00</span>
+                    <span id="duration">0:00</span>
+                    <div class="progress" id="progress"></div> 
+                </div>
+                <audio id="audio" src="./music/hope.mp3"></audio>
+                <div class="controls">
+                    <button id="prev" class="action_btn">
+                        <svg width="41" height="24" viewBox="0 0 41 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1.5 11.134C0.833334 11.5189 0.833333 12.4811 1.5 12.866L16.5 21.5263C17.1667 21.9112 18 21.4301 18 20.6603V3.33975C18 2.56995 17.1667 2.08885 16.5 2.47375L1.5 11.134Z"
+                                fill="#1E1E1E" />
+                            <path
+                                d="M18.1152 11.134C17.4486 11.5189 17.4486 12.4811 18.1152 12.866L33.1152 21.5263C33.7819 21.9112 34.6152 21.4301 34.6152 20.6603V3.33975C34.6152 2.56995 33.7819 2.08885 33.1152 2.47375L18.1152 11.134Z"
+                                fill="#1E1E1E" />
+                        </svg>
+                    </button>
+                    <button id="play" class="action_btn action_btn_big">
+                        <!-- Pause Button Icon -->
+                        <svg id="pause_btn" width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       
+                            <path d="M45 40L45 63" stroke="#1E1E1E" stroke-width="5" stroke-linecap="round"></path>
+                            <path d="M59 40L59 63" stroke="#1E1E1E" stroke-width="5" stroke-linecap="round"></path>
+                             <circle cx="51.5" cy="51.5" r="50.5" stroke="#1E1E1E" stroke-width="2" />
+                            </svg>
+                    
+                        <!-- Play Button Icon -->
+                        <svg id="play_btn" width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                            
+                            <path d="M42.75 38.0766L67.5 50.634C68.1667 51.0189 68.1667 51.9811 67.5 52.366L42.75 64.9234C42.0833 65.3083 41.25 64.8272 41.25 64.0574V38.0766C41.25 37.3068 42.0833 36.8257 42.75 37.2106Z" 
+                            fill="#1E1E1E"></path>
+                        <circle cx="51.5" cy="51.5" r="50.5" stroke="#1E1E1E" stroke-width="2" />
+                    </svg>
+                    </button>
+                    <button id="next" class="action_btn">
+                        <svg width="41" height="24" viewBox="0 0 41 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Right Arrow Path -->
+                            <path
+                                d="M39.1152 12.866C39.7819 12.4811 39.7819 11.5189 39.1152 11.134L24.1152 2.47372C23.4486 2.08882 22.6152 2.56995 22.6152 3.33975V20.6603C22.6152 21.4301 23.4486 21.9112 24.1152 21.5263L39.1152 12.866Z"
+                                fill="#1E1E1E">
+                            </path>
+                            <!-- Left Arrow Path -->
+                            <path
+                                d="M22.5 12.866C23.1667 12.4811 23.1667 11.5189 22.5 11.134L7.5 2.47372C6.83333 2.08882 6 2.56995 6 3.33975V20.6603C6 21.4301 6.83333 21.9112 7.5 21.5263L22.5 12.866Z"
+                                fill="#1E1E1E">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="music_albums">
+                <img id="intro" data-index="0" src="./images/intro.jpg" alt="">
+                <img id="hope" data-index="1" src="./images/hope.jpg" alt="">
+                <img id="joyeux3" data-index="2" src="./images/joyeux3.jpg" alt="">
+                <img id="happy" data-index="3" src="./images/happy.jpg" alt="">
+                <img id="life" data-index="4" src="./images/life.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    </section>  
+    
+    <section class="contact-section " id="contact">
+       <h2 class="section-title">Contact Us</h2>
+       <div class="section-content">
+        <ul class="contact-info-list">
+            <li class="contact-info">
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <p>Home Sweet Home.</p>
+            </li>
+            <li class="contact-info">
+                <i class="fa-regular fa-envelope"></i>
+                <p>cosybeatsmusic@gmail.com</p>
+            </li>  
+         <li class="contact-info">
+                <i class="fa-solid fa-globe"></i>
+                <p>www.cosy-beats.com</p>
+            </li>
+        </ul>
+    <form action="#contacts" class="contact-from">
+        <input type="text" placeholder="Your name" class="from-input" required>
+        <input type="email" placeholder="Your email" class="from-input" required>
+        <textarea placeholder="Messsage" class="from-input" required></textarea>
+        <button class="submit-button">submit</button>
+    
+    </form>
+    
+    
+       </div>
+    </section>
+    
+    <footer class="footer-section">
+    <div class="section-content">
+        <p class=" copyright-text">© Music websit</p>
+         <div class="social-link-list">
+    
+            <a href="#" class="social-link">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fa-brands fa-spotify"></i>
+                 
+            </a> </div>
+             <p class="polic-text">
+                <a href="#" class="policy-link">Stay cozy and keep vibing✨</a>
+                <span class="separaotor">.</span>
+              
+            </p>
+        
+    </div>
+    
+    </footer>
+    
+    
+    </main>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+  integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script  src="./index.js"></script>
+     
+
+
+</body>
+</html>
+
+
+
